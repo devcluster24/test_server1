@@ -14,4 +14,4 @@ jobs:
         server: www.api.kalerpotro.com
         username: ${{secrets.ftp_username}}
         password: ${{ secrets.ftp_password }}
-        server-dir:api.kalerpotro.com/id_rsa
+        server-dir:/test_server1/
